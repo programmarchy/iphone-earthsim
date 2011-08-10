@@ -1,1145 +1,0 @@
-TEarthSimulation
-v7
-r0
-t314492842.932887
-cCheck dependencies
-cProcessInfoPlistFile /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Info.plist EarthSimulation-Info.plist
-cPhaseScriptExecution "Encode Images" /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Script-405CE6A412BD83C900DBB790.sh
-cCpResource build/Debug-iphonesimulator/EarthSimulation.app/Shader.fsh Shaders/Shader.fsh
-cCpResource build/Debug-iphonesimulator/EarthSimulation.app/Shader.vsh Shaders/Shader.vsh
-cCompileXIB /Users/donald/Development/Sandbox/EarthSimulation/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/EarthSimulation.app/Texture.png Textures/Texture.png
-cCpResource build/Debug-iphonesimulator/EarthSimulation.app/Texture.pvr Textures/Texture.pvr
-cCpResource build/Debug-iphonesimulator/EarthSimulation.app/Earth.tga Textures/Earth.tga
-cProcessPCH /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch.gch EarthSimulation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/main.o /Users/donald/Development/Sandbox/EarthSimulation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthAppDelegate.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthRenderer.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/PVRTexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation normal i386
-cGenerateDSYMFile /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app.dSYM /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation
-cTouch /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
-c000000004C6C30170000000000000110
-t1282158615
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A4DB0000000000029D580
-t1280986544
-s2741632
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A4DA10000000000001466
-t1280986529
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004C5A4E4D000000000000094F
-t1280986701
-s2383
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004C5A4E4D0000000000000A61
-t1280986701
-s2657
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004C5A4E4D0000000000009369
-t1280986701
-s37737
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004C5A4E4D0000000000003C4A
-t1280986701
-s15434
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
-c000000004C5A4E4D00000000000092AA
-t1280986701
-s37546
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
-c000000004C5A4E4D00000000000026AA
-t1280986701
-s9898
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C5A4E570000000000019D60
-t1280986711
-s105824
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A505200000000000000C4
-t1280987218
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A50EF0000000000154E50
-t1280987375
-s1396304
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C6241ED00000000000009CD
-t1281507821
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C6242840000000001E228C0
-t1281507972
-s31598784
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
-c000000004C57A0390000000000001A5C
-t1280811065
-s6748
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdio.h
-c000000004C57909200000000000040AC
-t1280807058
-s16556
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdlib.h
-c000000004C5790920000000000002DF5
-t1280807058
-s11765
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.h
-c000000004D0CFF6500000000000004BB
-t1292697445
-s1211
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-i"ESRenderer.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.m
-c000000004D0CFD8D0000000000000E2E
-t1292696973
-s3630
-i"EAGLView.h"
-i"EarthRenderer.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EarthSimulationViewController.xib
-c000000004D0C26750000000000004401
-t1292641909
-s17409
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EarthViewController.xib
-c000000004D0C26750000000000004401
-t1292641909
-s17409
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/../GLTexture.cpp
-c000000004D0C32310000000000001519
-t1292644913
-s5401
-i<stdio.h>
-i<stdlib.h>
-i"GLTexture.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/../GLTexture.h
-c000000004D0C31190000000000000371
-t1292644633
-s881
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<OpenGLES/ES2/gl.h>
-i<OpenGLES/ES2/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EAGLView.h
-c000000004D0C267500000000000003DB
-t1292641909
-s987
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<OpenGLES/ES2/gl.h>
-i<OpenGLES/ES2/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EAGLView.m
-c000000004D0C26750000000000000EE3
-t1292641909
-s3811
-i<QuartzCore/QuartzCore.h>
-i"EAGLView.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/ES1Renderer.h
-c000000004B95A15E000000000000028E
-t1268097374
-s654
-i"ESRenderer.h"
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i"PVRTexture.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/ES2Renderer.h
-c000000004B94B24C0000000000000276
-t1268036172
-s630
-i"ESRenderer.h"
-i<OpenGLES/ES2/gl.h>
-i<OpenGLES/ES2/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/ESAppDelegate.m
-c000000004D0C26750000000000000408
-t1292641909
-s1032
-i"EarthSimulationAppDelegate.h"
-i"EarthSimulationViewController.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/ESRenderer.h
-c000000004D0CFD8D0000000000000146
-t1292696973
-s326
-i<QuartzCore/QuartzCore.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/EAGLDrawable.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/ESViewController.m
-c000000004D0C3B520000000000002414
-t1292647250
-s9236
-i<QuartzCore/QuartzCore.h>
-i"EarthSimulationViewController.h"
-i"EAGLView.h"
-i"Earth.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c
-c000000004D0C3B520000000000000E4E
-t1292647250
-s3662
-i"Earth.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h
-c000000004D0C36D20000000000000333
-t1292646098
-s819
-i"GLTexture.h"
-i"math.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthApDelegate.m
-c000000004D0C26750000000000000408
-t1292641909
-s1032
-i"EarthSimulationAppDelegate.h"
-i"EarthSimulationViewController.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.h
-c000000004D0CFD8D0000000000000196
-t1292696973
-s406
-i<UIKit/UIKit.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.m
-c000000004D0CFD8D000000000000042C
-t1292696973
-s1068
-i"EarthAppDelegate.h"
-i"EAGLView.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthDelegate.m
-c000000004D0C26750000000000000408
-t1292641909
-s1032
-i"EarthSimulationAppDelegate.h"
-i"EarthSimulationViewController.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.h
-c000000004D0D5D920000000000000295
-t1292721554
-s661
-i"ESRenderer.h"
-i"PVRTexture.h"
-i"TGATexture.h"
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.m
-c000000004D0E8F9A00000000000022EE
-t1292799898
-s8942
-i"EarthRenderer.h"
-i<math.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationAppDelegate.h
-c000000004D0C26750000000000000204
-t1292641909
-s516
-i<UIKit/UIKit.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationAppDelegate.m
-c000000004D0C26750000000000000408
-t1292641909
-s1032
-i"EarthSimulationAppDelegate.h"
-i"EarthSimulationViewController.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.h
-c000000004D0C26750000000000000438
-t1292641909
-s1080
-i<UIKit/UIKit.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<OpenGLES/ES2/gl.h>
-i<OpenGLES/ES2/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m
-c000000004D0C3B520000000000002414
-t1292647250
-s9236
-i<QuartzCore/QuartzCore.h>
-i"EarthSimulationViewController.h"
-i"EAGLView.h"
-i"Earth.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthViewController.m
-c000000004D0C3B520000000000002414
-t1292647250
-s9236
-i<QuartzCore/QuartzCore.h>
-i"EarthSimulationViewController.h"
-i"EAGLView.h"
-i"Earth.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.cpp
-c000000003BC1E9B8000000000000151A
-t1002564024
-s5402
-i<stdio.h>
-i<stdlib.h>
-i"GLTexture.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h
-c000000003BC1CF54000000000000030F
-t1002557268
-s783
-i"glut/glut.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.h
-c0000000049CD4DCD0000000000000C00
-t1238191565
-s3072
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.m
-c0000000049CD4DCD0000000000001C68
-t1238191565
-s7272
-i"PVRTexture.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp
-c000000003BC1E9B8000000000000151A
-t1002564024
-s5402
-i<stdio.h>
-i<stdlib.h>
-i"GLTexture.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.h
-c000000004D0D25FB0000000000000362
-t1292707323
-s866
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.m
-c000000004D0D275700000000000014F8
-t1292707671
-s5368
-i"TGATexture.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGAexture.cpp
-c000000003BC1E9B8000000000000151A
-t1002564024
-s5402
-i<stdio.h>
-i<stdlib.h>
-i"GLTexture.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/Test.cpp
-c000000004D0C3469000000000000009A
-t1292645481
-s154
-i"Test.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Classes/Test.h
-c000000004D0C34690000000000000085
-t1292645481
-s133
-
-N/Users/donald/Development/Sandbox/EarthSimulation/EAGLView.h
-c000000004D0CFF6500000000000004BB
-t1292697445
-s1211
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-i"ESRenderer.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/EAGLView.m
-c000000004B94B2970000000000000EA9
-t1268036247
-s3753
-i"EAGLView.h"
-i"ES1Renderer.h"
-i"ES2Renderer.h"
-
-N/Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation_Prefix.pch
-c000000004D0C26750000000000000148
-t1292641909
-s328
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/GLTexture.h
-c000000004D0C31190000000000000371
-t1292644633
-s881
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<OpenGLES/ES2/gl.h>
-i<OpenGLES/ES2/glext.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/MainWindow.xib
-c000000004D0CFCB8000000000000569C
-t1292696760
-s22172
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Shaders/Shader.fsh
-c000000004D0C267500000000000000D7
-t1292641909
-s215
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Shaders/Shader.vsh
-c000000004D0C2675000000000000015D
-t1292641909
-s349
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Textures/Earth.tga
-c000000003BC2123A000000000060002C
-t1002574394
-s6291500
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.pn
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.png
-c000000004D0D0EB90000000000398347
-t1292701369
-s3769159
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.pvr
-t1292800039
-s2097204
-
-N/Users/donald/Development/Sandbox/EarthSimulation/Textures/x.pvrtc
-c000000004D0D2FA80000000000008000
-t1292709800
-s32768
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app
-t1292800042
-s374
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app.dSYM
-t1292800042
-s102
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Earth.tga
-t1292800041
-s6291500
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation
-t1292800042
-s41560
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulationViewController.nib
-t1292645537
-s1342
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthViewController.nib
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Info.plist
-t1292799983
-s656
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/MainWindow.nib
-t1292800041
-s1839
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/PkgInfo
-t1292799983
-s8
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Shader.fsh
-t1292800040
-s215
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Shader.vsh
-t1292800040
-s349
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Texture.png
-t1292800041
-s3769159
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Texture.pvr
-t1292800040
-s2097204
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/d4.pvrtc
-t1292709132
-s32820
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/earth.pvrtc
-t1292708298
-s2097152
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/earth.tga
-t1292708298
-s6291500
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/test.pvrtc
-t1292709132
-s8192
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/unitSquare.pvrtc
-t1292697297
-s131124
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/x.pvrtc
-t1292710078
-s32768
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/myfile
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o
-t1292800042
-s46828
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/ESAppDelegate.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/ESViewController.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/Earth.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthApDelegate.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthAppDelegate.o
-t1292800042
-s48448
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthDelegate.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthRenderer.o
-t1292800042
-s22044
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulation.LinkFileList
-c000000004D0E8FEF00000000000003A3
-t1292799983
-s931
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationAppDelegate.o
-t1292645539
-s47936
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationViewController.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthViewController.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/GLTexture.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/PVRTexture.o
-t1292800042
-s19860
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o
-t1292800042
-s21724
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGAexture.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/Test.o
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/main.o
-t1292800042
-s6324
-
-N/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Script-405CE6A412BD83C900DBB790.sh
-c000000004D0E8FEF0000000000000090
-t1292799983
-s144
-
-N/Users/donald/Development/Sandbox/EarthSimulation/d4.pvrtc
-c000000004B96D34A0000000000008034
-t1268175690
-s32820
-
-N/Users/donald/Development/Sandbox/EarthSimulation/earth.pvrtc
-c000000004D0D0F130000000000200000
-t1292701459
-s2097152
-
-N/Users/donald/Development/Sandbox/EarthSimulation/earth.tga
-c000000003BC2123A000000000060002C
-t1002574394
-s6291500
-
-N/Users/donald/Development/Sandbox/EarthSimulation/main.m
-c000000004D0C26750000000000000166
-t1292641909
-s358
-i<UIKit/UIKit.h>
-
-N/Users/donald/Development/Sandbox/EarthSimulation/myfile
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/donald/Development/Sandbox/EarthSimulation/test.pvrtc
-c000000004D0D29350000000000002000
-t1292708149
-s8192
-
-N/Users/donald/Development/Sandbox/EarthSimulation/unitSquare.pvrtc
-c000000004B94C1DE0000000000020034
-t1268040158
-s131124
-
-N/Users/donald/Development/Sandbox/EarthSimulation/x.pvrtc
-c000000004D0D2FA80000000000008000
-t1292709800
-s32768
-
-N/var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-bzthbsqpakyqeocmpwvtgsjuwysb/EarthSimulation_Prefix.pch.gch
-t1292645538
-s2535856
-
-N/var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fhbiemfdpjxozgeaqtwcepvpgtbw/EarthSimulation_Prefix.pch.gch
-t1292645538
-s2167216
-
-N/var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch.gch
-t1292800042
-s15203344
-
-NEarthSimulation-Info.plist
-c000000004D0C267500000000000003B4
-t1292641909
-s948
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies314492783#314492783#0(0"0(0#1#0"8618661728#0"0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314492842.623968
-e314492842.750785
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.m314492842#314492842#0(0"0(0#0#71"/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.m8616905984#2222"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/../EAGLView.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314338339.069125
-e314338339.195361
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/EAGLView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/EAGLView.m314338339#314338339#0(0"0(0#0#68"/Users/donald/Development/Sandbox/EarthSimulation/Classes/EAGLView.m8603542752#2219"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/EAGLView.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EAGLView.o /Users/donald/Development/Sandbox/EarthSimulation/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/ESAppDelegate.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/ESAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/ESViewController.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/ESViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/Earth.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c normal i386 c com.apple.compilers.gcc.4_2
-s314340089.651325
-e314340089.700559
-r0
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/Earth.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h:13,
-o                 from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:10:
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'earthTexture'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c: In function 'Init':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:59: error: 'earthTexture' undeclared (first use in this function)
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:59: error: (Each undeclared identifier is reported only once
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:59: error: for each function it appears in.)
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c: In function 'DrawEarth':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:83: error: 'earthTexture' undeclared (first use in this function)
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:85: error: 'GL_CLAMP' undeclared (first use in this function)
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:88: warning: implicit declaration of function 'glColor3f'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:94: warning: implicit declaration of function 'glBegin'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:94: error: 'GL_QUAD_STRIP' undeclared (first use in this function)
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:97: warning: implicit declaration of function 'glTexCoord2fv'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:98: warning: implicit declaration of function 'glVertex3fv'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:110: warning: implicit declaration of function 'glEnd'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c: In function 'DrawScene':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:137: error: 'GLdouble' undeclared (first use in this function)
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:137: error: expected ';' before 'modelview_matrix'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:138: warning: implicit declaration of function 'glGetDoublev'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:138: error: 'modelview_matrix' undeclared (first use in this function)
-lSLF07#2@73"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340089#314340089#0(2648"In file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h:13,                 from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:10:/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'earthTexture'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c: In function 'Init':/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:59: error: 'earthTexture' undeclared (first use in this function)/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:59: error: (Each undeclared identifier is reported only once/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:59: error: for each function it appears in.)/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c: In function 'DrawEarth':/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:83: error: 'earthTexture' undeclared (first use in this function)/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:85: error: 'GL_CLAMP' undeclared (first use in this function)/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:88: warning: implicit declaration of function 'glColor3f'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:94: warning: implicit declaration of function 'glBegin'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:94: error: 'GL_QUAD_STRIP' undeclared (first use in this function)/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:97: warning: implicit declaration of function 'glTexCoord2fv'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:98: warning: implicit declaration of function 'glVertex3fv'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:110: warning: implicit declaration of function 'glEnd'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c: In function 'DrawScene':/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:137: error: 'GLdouble' undeclared (first use in this function)/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:137: error: expected ';' before 'modelview_matrix'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:138: warning: implicit declaration of function 'glGetDoublev'/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c:138: error: 'modelview_matrix' undeclared (first use in this function)15(4@68"Expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture'314340089#184#150#3(7@87"In file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340089#18446744073709551615#0#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#10#0#10#0#0"0(7@87"In file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h314340089#18446744073709551615#0#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h314338898#13#0#13#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture' in /Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h314340089#18446744073709551615#0#0(6@69"/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h314340089#13#0#13#0#0"0(6@69"/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h314340089#13#0#13#0#19"expected * before *0(4@70"Expected '=', ',', ';', 'asm' or '__attribute__' before 'earthTexture'314340089#334#148#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#12#0#12#0#19"expected * before *0(4@54"'earthTexture' undeclared (first use in this function)314340089#569#132#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#59#0#59#0#43"'*' undeclared (first use in this function)0(4@54"'earthTexture' undeclared (first use in this function)314340089#1031#132#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#83#0#83#0#43"'*' undeclared (first use in this function)0(4@50"'GL_CLAMP' undeclared (first use in this function)314340089#1163#128#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#85#0#85#0#43"'*' undeclared (first use in this function)0(22@44"Implicit declaration of function 'glColor3f'314340089#1291#124#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#88#0#88#0#36"implicit declaration of function '*'0(22@42"Implicit declaration of function 'glBegin'314340089#1415#122#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#94#0#94#0#36"implicit declaration of function '*'0(4@55"'GL_QUAD_STRIP' undeclared (first use in this function)314340089#1537#133#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#94#0#94#0#43"'*' undeclared (first use in this function)0(22@48"Implicit declaration of function 'glTexCoord2fv'314340089#1670#128#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#97#0#97#0#36"implicit declaration of function '*'0(22@46"Implicit declaration of function 'glVertex3fv'314340089#1798#126#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#98#0#98#0#36"implicit declaration of function '*'0(22@40"Implicit declaration of function 'glEnd'314340089#1924#121#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#110#0#110#0#36"implicit declaration of function '*'0(4@50"'GLdouble' undeclared (first use in this function)314340089#2137#129#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#137#0#137#0#43"'*' undeclared (first use in this function)0(4@38"Expected ';' before 'modelview_matrix'314340089#2266#117#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#137#0#137#0#19"expected * before *0(22@47"Implicit declaration of function 'glGetDoublev'314340089#2383#128#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#138#0#138#0#36"implicit declaration of function '*'0(4@58"'modelview_matrix' undeclared (first use in this function)314340089#2511#137#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c314340050#138#0#138#0#43"'*' undeclared (first use in this function)0(0#0#65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c8807370688#2159"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fhbiemfdpjxozgeaqtwcepvpgtbw/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.c -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/Earth.o1#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthApDelegate.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthApDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthAppDelegate.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314492842.562362
-e314492842.659431
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthAppDelegate.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.m314492842#314492842#0(0"0(0#0#76"/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.m8618391008#2235"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthAppDelegate.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthAppDelegate.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthDelegate.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthRenderer.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314492842.659530
-e314492842.789838
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthRenderer.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.m314492842#314492842#0(0"0(0#0#73"/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.m8607745184#2229"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthRenderer.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthRenderer.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationAppDelegate.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314338339.007916
-e314338339.114813
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationAppDelegate.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationAppDelegate.m314338339#314338339#0(0"0(0#0#86"/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationAppDelegate.m8602787968#2255"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationAppDelegate.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationAppDelegate.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationViewController.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314340089.650035
-e314340089.742446
-r0
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationViewController.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h:13,
-o                 from /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m:13:
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture'
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m: In function '-[EarthSimulationViewController drawFrame]':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m:193: warning: implicit declaration of function 'Render'
-lSLF07#2@97"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m314340089#314340089#0(653"In file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h:13,                 from /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m:13:/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture'/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m: In function '-[EarthSimulationViewController drawFrame]':/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m:193: warning: implicit declaration of function 'Render'2(4@68"Expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture'314340089#208#150#3(7@111"In file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m314340089#18446744073709551615#0#0(6@89"/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m314340050#13#0#13#0#0"0(7@87"In file included from /Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h314340089#18446744073709551615#0#0(6@65"/Users/donald/Development/Sandbox/EarthSimulation/Classes/Earth.h314338898#13#0#13#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'CGLTexture' in /Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h314340089#18446744073709551615#0#0(6@69"/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h314340089#13#0#13#0#0"0(6@69"/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.h314340089#13#0#13#0#19"expected * before *0(22@41"Implicit declaration of function 'Render'314340089#507#146#0(6@89"/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m314340050#193#0#193#0#36"implicit declaration of function '*'0(0#0#89"/Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m8808238976#2261"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthSimulationViewController.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulationViewController.o1#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthViewController.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/EarthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/GLTexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/../GLTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/GLTexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s314338339.202916
-e314338339.305223
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/GLTexture.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.cpp314338339#314338339#0(0"0(0#0#71"/Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.cpp8603964544#2190"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-bzthbsqpakyqeocmpwvtgsjuwysb/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/GLTexture.cpp -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/GLTexture.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/PVRTexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314492842.750887
-e314492842.842238
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/PVRTexture.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.m314492842#314492842#0(0"0(0#0#70"/Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.m8620693120#2223"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/PVRTexture.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/PVRTexture.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s314394409.317354
-e314394409.371842
-r0
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:7:23: error: GLTexture.h: No such file or directory
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:9: error: 'CGLTexture' has not been declared
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:9: error: ISO C++ forbids declaration of 'CGLTexture' with no type
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:13: error: expected constructor, destructor, or type conversion before '::' token
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:17: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'void Use()':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:19: error: 'GL_TEXTURE_2D' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:19: error: 'm_textureID' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:19: error: 'glBindTexture' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:22: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'bool LoadTGA(char*)':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:24: error: 'm_textureID' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:24: error: 'glGenTextures' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:25: error: 'loadTGATexture' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:35: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:53: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'unsigned char* getRGBA(FILE*, int)':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:81: error: 'texFormat' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:81: error: 'GL_RGBA' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:91: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'unsigned char* getRGB(FILE*, int)':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:119: error: 'texFormat' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:119: error: 'GL_RGB' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:130: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'unsigned char* getGray(FILE*, int)':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:149: error: 'texFormat' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:149: error: 'GL_LUMINANCE' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:160: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:179: error: 'CGLTexture' is not a class or namespace
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'bool loadTGATexture(char*, int)':
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:221: error: 'GL_TEXTURE_2D' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:221: error: 'glBindTexture' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:222: error: 'GL_UNPACK_ALIGNMENT' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:222: error: 'glPixelStorei' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:223: error: 'GL_TEXTURE_WRAP_S' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:223: error: 'GL_REPEAT' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:223: error: 'glTexParameteri' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:224: error: 'GL_TEXTURE_WRAP_T' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:226: error: 'GL_TEXTURE_MAG_FILTER' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:226: error: 'GL_LINEAR' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:228: error: 'GL_TEXTURE_MIN_FILTER' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'GL_TEXTURE_ENV' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'GL_TEXTURE_ENV_MODE' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'GL_MODULATE' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'glTexEnvf' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:230: error: 'texFormat' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:230: error: 'GL_UNSIGNED_BYTE' was not declared in this scope
-o/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:230: error: 'gluBuild2DMipmaps' was not declared in this scope
-lSLF07#2@80"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp314394409#314394409#0(6648"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:7:23: error: GLTexture.h: No such file or directory/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:9: error: 'CGLTexture' has not been declared/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:9: error: ISO C++ forbids declaration of 'CGLTexture' with no type/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:13: error: expected constructor, destructor, or type conversion before '::' token/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:17: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'void Use()':/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:19: error: 'GL_TEXTURE_2D' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:19: error: 'm_textureID' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:19: error: 'glBindTexture' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:22: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'bool LoadTGA(char*)':/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:24: error: 'm_textureID' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:24: error: 'glGenTextures' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:25: error: 'loadTGATexture' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:35: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:53: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'unsigned char* getRGBA(FILE*, int)':/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:81: error: 'texFormat' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:81: error: 'GL_RGBA' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:91: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'unsigned char* getRGB(FILE*, int)':/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:119: error: 'texFormat' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:119: error: 'GL_RGB' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:130: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'unsigned char* getGray(FILE*, int)':/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:149: error: 'texFormat' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:149: error: 'GL_LUMINANCE' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: At global scope:/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:160: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:179: error: 'CGLTexture' is not a class or namespace/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp: In function 'bool loadTGATexture(char*, int)':/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:221: error: 'GL_TEXTURE_2D' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:221: error: 'glBindTexture' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:222: error: 'GL_UNPACK_ALIGNMENT' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:222: error: 'glPixelStorei' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:223: error: 'GL_TEXTURE_WRAP_S' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:223: error: 'GL_REPEAT' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:223: error: 'glTexParameteri' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:224: error: 'GL_TEXTURE_WRAP_T' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:226: error: 'GL_TEXTURE_MAG_FILTER' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:226: error: 'GL_LINEAR' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:228: error: 'GL_TEXTURE_MIN_FILTER' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'GL_TEXTURE_ENV' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'GL_TEXTURE_ENV_MODE' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'GL_MODULATE' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:229: error: 'glTexEnvf' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:230: error: 'texFormat' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:230: error: 'GL_UNSIGNED_BYTE' was not declared in this scope/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp:230: error: 'gluBuild2DMipmaps' was not declared in this scope47(4@38"GLTexture.h: No such file or directory314394409#0#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#7#0#7#0#28"*: No such file or directory0(4@34"'CGLTexture' has not been declared314394409#125#118#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#9#0#9#0#25"'*' has not been declared0(4@56"ISO C++ forbids declaration of 'CGLTexture' with no type314394409#243#140#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#9#0#9#0#47"ISO C++ forbids declaration of '*' with no type0(4@70"Expected constructor, destructor, or type conversion before '::' token314394409#383#155#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#13#0#13#0#19"expected * before *0(4@40"'CGLTexture' is not a class or namespace314394409#538#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#17#0#17#0#0"0(4@46"'GL_TEXTURE_2D' was not declared in this scope314394409#763#131#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#19#0#19#0#34"'*' was not declared in this scope0(4@44"'m_textureID' was not declared in this scope314394409#894#129#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#19#0#19#0#34"'*' was not declared in this scope0(4@46"'glBindTexture' was not declared in this scope314394409#1023#131#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#19#0#19#0#34"'*' was not declared in this scope0(23@16"At global scope:314394409#1154#91#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#0#0#0#0#0"0(4@40"'CGLTexture' is not a class or namespace314394409#1245#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#22#0#22#0#0"0(4@44"'m_textureID' was not declared in this scope314394409#1479#129#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#24#0#24#0#34"'*' was not declared in this scope0(4@46"'glGenTextures' was not declared in this scope314394409#1608#131#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#24#0#24#0#34"'*' was not declared in this scope0(4@47"'loadTGATexture' was not declared in this scope314394409#1739#132#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#25#0#25#0#34"'*' was not declared in this scope0(23@16"At global scope:314394409#1871#91#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#0#0#0#0#0"0(4@40"'CGLTexture' is not a class or namespace314394409#1962#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#35#0#35#0#0"0(4@40"'CGLTexture' is not a class or namespace314394409#2087#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#53#0#53#0#0"0(4@42"'texFormat' was not declared in this scope314394409#2336#127#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#81#0#81#0#34"'*' was not declared in this scope0(4@40"'GL_RGBA' was not declared in this scope314394409#2463#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#81#0#81#0#34"'*' was not declared in this scope0(23@16"At global scope:314394409#2588#91#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#0#0#0#0#0"0(4@40"'CGLTexture' is not a class or namespace314394409#2679#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#91#0#91#0#0"0(4@42"'texFormat' was not declared in this scope314394409#2927#128#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#119#0#119#0#34"'*' was not declared in this scope0(4@39"'GL_RGB' was not declared in this scope314394409#3055#125#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#119#0#119#0#34"'*' was not declared in this scope0(23@16"At global scope:314394409#3180#91#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#0#0#0#0#0"0(4@40"'CGLTexture' is not a class or namespace314394409#3271#126#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#130#0#130#0#0"0(4@42"'texFormat' was not declared in this scope314394409#3521#128#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#149#0#149#0#34"'*' was not declared in this scope0(4@45"'GL_LUMINANCE' was not declared in this scope314394409#3649#131#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#149#0#149#0#34"'*' was not declared in this scope0(23@16"At global scope:314394409#3780#91#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#0#0#0#0#0"0(4@40"'CGLTexture' is not a class or namespace314394409#3871#126#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#160#0#160#0#0"0(4@40"'CGLTexture' is not a class or namespace314394409#3997#126#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#179#0#179#0#0"0(4@46"'GL_TEXTURE_2D' was not declared in this scope314394409#4244#132#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#221#0#221#0#34"'*' was not declared in this scope0(4@46"'glBindTexture' was not declared in this scope314394409#4376#132#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#221#0#221#0#34"'*' was not declared in this scope0(4@52"'GL_UNPACK_ALIGNMENT' was not declared in this scope314394409#4508#138#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#222#0#222#0#34"'*' was not declared in this scope0(4@46"'glPixelStorei' was not declared in this scope314394409#4646#132#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#222#0#222#0#34"'*' was not declared in this scope0(4@50"'GL_TEXTURE_WRAP_S' was not declared in this scope314394409#4778#136#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#223#0#223#0#34"'*' was not declared in this scope0(4@42"'GL_REPEAT' was not declared in this scope314394409#4914#128#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#223#0#223#0#34"'*' was not declared in this scope0(4@48"'glTexParameteri' was not declared in this scope314394409#5042#134#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#223#0#223#0#34"'*' was not declared in this scope0(4@50"'GL_TEXTURE_WRAP_T' was not declared in this scope314394409#5176#136#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#224#0#224#0#34"'*' was not declared in this scope0(4@54"'GL_TEXTURE_MAG_FILTER' was not declared in this scope314394409#5312#140#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#226#0#226#0#34"'*' was not declared in this scope0(4@42"'GL_LINEAR' was not declared in this scope314394409#5452#128#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#226#0#226#0#34"'*' was not declared in this scope0(4@54"'GL_TEXTURE_MIN_FILTER' was not declared in this scope314394409#5580#140#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#228#0#228#0#34"'*' was not declared in this scope0(4@47"'GL_TEXTURE_ENV' was not declared in this scope314394409#5720#133#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#229#0#229#0#34"'*' was not declared in this scope0(4@52"'GL_TEXTURE_ENV_MODE' was not declared in this scope314394409#5853#138#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#229#0#229#0#34"'*' was not declared in this scope0(4@44"'GL_MODULATE' was not declared in this scope314394409#5991#130#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#229#0#229#0#34"'*' was not declared in this scope0(4@42"'glTexEnvf' was not declared in this scope314394409#6121#128#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#229#0#229#0#34"'*' was not declared in this scope0(4@42"'texFormat' was not declared in this scope314394409#6249#128#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#230#0#230#0#34"'*' was not declared in this scope0(4@49"'GL_UNSIGNED_BYTE' was not declared in this scope314394409#6377#135#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#230#0#230#0#34"'*' was not declared in this scope0(4@50"'gluBuild2DMipmaps' was not declared in this scope314394409#6512#136#0(6@72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp24256824#230#0#230#0#34"'*' was not declared in this scope0(0#0#72"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp8617370624#2192"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-bzthbsqpakyqeocmpwvtgsjuwysb/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.cpp -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o1#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314492842.789942
-e314492842.878469
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.m314492842#314492842#0(0"0(0#0#70"/Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.m8620891136#2223"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGATexture.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGATexture.o0#
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/TGAexture.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/TGAexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/Test.o /Users/donald/Development/Sandbox/EarthSimulation/Classes/Test.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/main.o /Users/donald/Development/Sandbox/EarthSimulation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314492842.560759
-e314492842.623867
-r1
-xCompileC
-xbuild/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/main.o
-x/Users/donald/Development/Sandbox/EarthSimulation/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/donald/Development/Sandbox/EarthSimulation/main.m314492842#314492842#0(0"0(0#0#56"/Users/donald/Development/Sandbox/EarthSimulation/main.m8606536224#2203"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -include /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch -c /Users/donald/Development/Sandbox/EarthSimulation/main.m -o /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/donald/Development/Sandbox/EarthSimulation/Classes/../EarthSimulationViewController.xib
-s314338337.456311
-e314338337.984327
-r1
-xCompileXIB
-x/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EarthSimulationViewController.xib
-lSLF07#2@55"CompileXIB Classes/../EarthSimulationViewController.xib314338337#314338337#0(0"0(0#0#94"/Users/donald/Development/Sandbox/EarthSimulation/Classes/../EarthSimulationViewController.xib7815273027509711872#660"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulationViewController.nib /Users/donald/Development/Sandbox/EarthSimulation/Classes/../EarthSimulationViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/donald/Development/Sandbox/EarthSimulation/Classes/../EarthViewController.xib
-r0
-
-CCompileXIB /Users/donald/Development/Sandbox/EarthSimulation/MainWindow.xib
-s314492839.698356
-e314492841.736971
-r1
-xCompileXIB
-x/Users/donald/Development/Sandbox/EarthSimulation/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib314492839#314492841#0(0"0(0#0#64"/Users/donald/Development/Sandbox/EarthSimulation/MainWindow.xib31244186277970040#611"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/MainWindow.nib /Users/donald/Development/Sandbox/EarthSimulation/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/Earth.tga Textures/Earth.tga
-s314492840.080743
-e314492841.586148
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/Earth.tga
-xTextures/Earth.tga
-lSLF07#2@23"Copy Textures/Earth.tga314492840#314492841#0(0"0(0#0#68"/Users/donald/Development/Sandbox/EarthSimulation/Textures/Earth.tga8618692320#503"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/Textures/Earth.tga /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/Shader.fsh Shaders/Shader.fsh
-s314492839.696561
-e314492840.078876
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/Shader.fsh
-xShaders/Shader.fsh
-lSLF07#2@23"Copy Shaders/Shader.fsh314492839#314492840#0(0"0(0#0#68"/Users/donald/Development/Sandbox/EarthSimulation/Shaders/Shader.fsh8618164480#503"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/Shaders/Shader.fsh /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/Shader.vsh Shaders/Shader.vsh
-s314492839.697326
-e314492840.079040
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/Shader.vsh
-xShaders/Shader.vsh
-lSLF07#2@23"Copy Shaders/Shader.vsh314492839#314492840#0(0"0(0#0#68"/Users/donald/Development/Sandbox/EarthSimulation/Shaders/Shader.vsh8620867680#503"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/Shaders/Shader.vsh /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/Texture.png Textures/Texture.png
-s314492840.079130
-e314492841.118549
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/Texture.png
-xTextures/Texture.png
-lSLF07#2@25"Copy Textures/Texture.png314492840#314492841#0(0"0(0#0#70"/Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.png8620928640#505"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.png /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/Texture.pvr Textures/Texture.pvr
-s314492840.079995
-e314492840.720359
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/Texture.pvr
-xTextures/Texture.pvr
-lSLF07#2@25"Copy Textures/Texture.pvr314492840#314492840#0(0"0(0#0#70"/Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.pvr8620897056#505"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.pvr /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/d4.pvrtc d4.pvrtc
-s314401932.417284
-e314401932.430707
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/d4.pvrtc
-xd4.pvrtc
-lSLF07#2@13"Copy d4.pvrtc314401932#314401932#0(0"0(0#0#58"/Users/donald/Development/Sandbox/EarthSimulation/d4.pvrtc8663960704#493"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/d4.pvrtc /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/earth.pvrtc earth.pvrtc
-s314401098.045511
-e314401098.058948
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/earth.pvrtc
-xearth.pvrtc
-lSLF07#2@16"Copy earth.pvrtc314401098#314401098#0(0"0(0#0#61"/Users/donald/Development/Sandbox/EarthSimulation/earth.pvrtc8622189728#496"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/earth.pvrtc /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/earth.tga earth.tga
-s314401098.041953
-e314401098.732085
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/earth.tga
-xearth.tga
-lSLF07#2@14"Copy earth.tga314401098#314401098#0(0"0(0#0#59"/Users/donald/Development/Sandbox/EarthSimulation/earth.tga8622248672#494"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/earth.tga /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/test.pvrtc test.pvrtc
-s314401932.416041
-e314401932.425552
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/test.pvrtc
-xtest.pvrtc
-lSLF07#2@15"Copy test.pvrtc314401932#314401932#0(0"0(0#0#60"/Users/donald/Development/Sandbox/EarthSimulation/test.pvrtc8664621728#495"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/test.pvrtc /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/unitSquare.pvrtc unitSquare.pvrtc
-s314390097.135117
-e314390097.146022
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/unitSquare.pvrtc
-xunitSquare.pvrtc
-lSLF07#2@21"Copy unitSquare.pvrtc314390097#314390097#0(0"0(0#0#66"/Users/donald/Development/Sandbox/EarthSimulation/unitSquare.pvrtc8620780704#501"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/unitSquare.pvrtc /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/x.pvrtc Textures/x.pvrtc
-s314402878.113971
-e314402878.119878
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EarthSimulation.app/x.pvrtc
-xTextures/x.pvrtc
-lSLF07#2@21"Copy Textures/x.pvrtc314402878#314402878#0(0"0(0#0#66"/Users/donald/Development/Sandbox/EarthSimulation/Textures/x.pvrtc8635195680#501"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/donald/Development/Sandbox/EarthSimulation/Textures/x.pvrtc /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
-CCpResource build/Debug-iphonesimulator/EarthSimulation.app/x.pvrtc x.pvrtc
-r0
-
-CGenerateDSYMFile /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app.dSYM /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation
-s314492842.912591
-e314492842.929753
-r1
-xGenerateDSYMFile
-x/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app.dSYM
-x/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation
-lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/EarthSimulation.app.dSYM build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation314492842#314492842#0(0"0(0#0#113"/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation8607737056#440"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation -o /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app.dSYM0#
-
-CLd /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation normal i386
-s314492842.878569
-e314492842.912494
-r1
-xLd
-x/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation
-xnormal
-xi386
-lSLF07#2@118"Link /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation314492842#314492842#0(0"0(0#0#0"8617879616#1013"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -filelist /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -o /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/EarthSimulation0#
-
-CPhaseScriptExecution "Encode Images" /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Script-405CE6A412BD83C900DBB790.sh
-s314492783.644293
-e314492839.696363
-r1
-xPhaseScriptExecution
-xEncode Images
-x/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Script-405CE6A412BD83C900DBB790.sh
-lSLF07#2@39"Run custom shell script 'Encode Images'314492783#314492839#0(0"0(0#0#0"8608567840#18321"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER donald    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/donald/Development/Sandbox/EarthSimulation/build    setenv BUILD_ROOT /Users/donald/Development/Sandbox/EarthSimulation/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH EarthSimulation.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH EarthSimulation.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/EarthSimulation.dst    setenv DWARF_DSYM_FILE_NAME EarthSimulation.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH EarthSimulation.app/Executables    setenv EXECUTABLE_FOLDER_PATH EarthSimulation.app    setenv EXECUTABLE_NAME EarthSimulation    setenv EXECUTABLE_PATH EarthSimulation.app/EarthSimulation    setenv FILE_LIST /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH EarthSimulation.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME EarthSimulation.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER EarthSimulation_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS DEBUG    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE EarthSimulation-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH EarthSimulation.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH EarthSimulation.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/EarthSimulation.dst/Users/donald/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER donald    setenv INSTALL_PATH /Users/donald/Applications    setenv INSTALL_ROOT /tmp/EarthSimulation.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH EarthSimulation.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal/i386/EarthSimulation.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH EarthSimulation.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Objects-normal    setenv OBJROOT /Users/donald/Development/Sandbox/EarthSimulation/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH EarthSimulation.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/PkgInfo    setenv PKGINFO_PATH EarthSimulation.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH EarthSimulation.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH EarthSimulation.app/PrivateHeaders    setenv PRODUCT_NAME EarthSimulation    setenv PRODUCT_SETTINGS_PATH /Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT EarthSimulation    setenv PROJECT_DERIVED_FILE_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/DerivedSources    setenv PROJECT_DIR /Users/donald/Development/Sandbox/EarthSimulation    setenv PROJECT_FILE_PATH /Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation.xcodeproj    setenv PROJECT_NAME EarthSimulation    setenv PROJECT_TEMP_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build    setenv PUBLIC_HEADERS_FOLDER_PATH EarthSimulation.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH EarthSimulation.app/Scripts    setenv SCRIPT_INPUT_FILE_0 /Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.png    setenv SCRIPT_INPUT_FILE_COUNT 1    setenv SCRIPT_OUTPUT_FILE_0 /Users/donald/Development/Sandbox/EarthSimulation/Textures/Texture.pvr    setenv SCRIPT_OUTPUT_FILE_COUNT 1    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH EarthSimulation.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH EarthSimulation.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/donald/Development/Sandbox/EarthSimulation    setenv SRCROOT /Users/donald/Development/Sandbox/EarthSimulation    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/SymbolRepositories    setenv SYMROOT /Users/donald/Development/Sandbox/EarthSimulation/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME EarthSimulation    setenv TARGET_BUILD_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator    setenv TARGET_NAME EarthSimulation    setenv TARGET_TEMP_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build    setenv TEMP_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build    setenv TEMP_FILES_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build    setenv TEMP_FILE_DIR /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build    setenv TEMP_ROOT /Users/donald/Development/Sandbox/EarthSimulation/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH EarthSimulation.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER donald    setenv USER_APPS_DIR /Users/donald/Applications    setenv USER_LIBRARY_DIR /Users/donald/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH EarthSimulation.app/version.plist    setenv VERSION_INFO_BUILDER donald    setenv VERSION_INFO_FILE EarthSimulation_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:EarthSimulation  PROJECT:EarthSimulation-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME EarthSimulation.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Script-405CE6A412BD83C900DBB790.sh0#
-
-CPhaseScriptExecution "Run Script" /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/Script-405CE6A412BD83C900DBB790.sh
-r0
-
-CProcessInfoPlistFile /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Info.plist EarthSimulation-Info.plist
-s314492783.639653
-e314492783.644199
-r1
-xProcessInfoPlistFile
-x/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Info.plist
-xEarthSimulation-Info.plist
-lSLF07#2@34"Process EarthSimulation-Info.plist314492783#314492783#0(0"0(0#0#76"/Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation-Info.plist8618225536#536"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility EarthSimulation-Info.plist -genpkginfo /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app/Info.plist0#
-
-CProcessPCH /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fhbiemfdpjxozgeaqtwcepvpgtbw/EarthSimulation_Prefix.pch.gch EarthSimulation_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
-s314338338.098202
-e314338338.205954
-r1
-xProcessPCH
-x/var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fhbiemfdpjxozgeaqtwcepvpgtbw/EarthSimulation_Prefix.pch.gch
-xEarthSimulation_Prefix.pch
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Precompile EarthSimulation_Prefix.pch314338338#314338338#0(0"0(0#0#76"/Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation_Prefix.pch8604408768#2022"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -c /Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation_Prefix.pch -o /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fhbiemfdpjxozgeaqtwcepvpgtbw/EarthSimulation_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch.gch EarthSimulation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s314492841.737182
-e314492842.560492
-r1
-xProcessPCH
-x/var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch.gch
-xEarthSimulation_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Precompile EarthSimulation_Prefix.pch314492841#314492842#0(0"0(0#0#76"/Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation_Prefix.pch8620875008#2076"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -c /Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation_Prefix.pch -o /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-fofryjpgoylepjeylpgnzuvhrosr/EarthSimulation_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-bzthbsqpakyqeocmpwvtgsjuwysb/EarthSimulation_Prefix.pch.gch EarthSimulation_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
-s314338338.206077
-e314338338.295973
-r1
-xProcessPCH++
-x/var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-bzthbsqpakyqeocmpwvtgsjuwysb/EarthSimulation_Prefix.pch.gch
-xEarthSimulation_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Precompile EarthSimulation_Prefix.pch314338338#314338338#0(0"0(0#0#76"/Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation_Prefix.pch8604116128#2043"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-generated-files.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-own-target-headers.hmap -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-all-target-headers.hmap -iquote /Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/EarthSimulation-project-headers.hmap -F/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator -I/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/include -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources/i386 -I/Users/donald/Development/Sandbox/EarthSimulation/build/EarthSimulation.build/Debug-iphonesimulator/EarthSimulation.build/DerivedSources -c /Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation_Prefix.pch -o /var/folders/-9/-9FqgkHnFy4M5qiuzfi5xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EarthSimulation_Prefix-bzthbsqpakyqeocmpwvtgsjuwysb/EarthSimulation_Prefix.pch.gch0#
-
-CTouch /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app
-s314492842.929848
-e314492842.932851
-r1
-xTouch
-x/Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app
-lSLF07#2@103"Touch /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app314492842#314492842#0(0"0(0#0#0"8606792896#308"    cd /Users/donald/Development/Sandbox/EarthSimulation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/donald/Development/Sandbox/EarthSimulation/build/Debug-iphonesimulator/EarthSimulation.app0#
-
