@@ -1,0 +1,3 @@
+This is a sample app which is based on the OpenGL tutorial by David Jacobs.
+
+The code for rendering a texture-mapped Earth sphere was ported from a C++ implementation by Ohad Eder Pressman.

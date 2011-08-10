@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* EarthAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 1290}}";
+			sepNavSelRange = "{399, 0}";
+			sepNavVisRange = "{0, 406}";
+		};
+	};
+	1D3623250D0F684500981E51 /* EarthAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 1290}}";
+			sepNavSelRange = "{495, 0}";
+			sepNavVisRange = "{0, 1132}";
+			sepNavWindowFrame = "{{15, 37}, {631, 736}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* EarthSimulation */ = {
+		activeExec = 0;
+		executables = (
+			40821C0212BC5DF500DB9C75 /* EarthSimulation */,
+		);
+	};
+	2514C27910084DCA00A42282 /* Shader.fsh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 1290}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 215}";
+		};
+	};
+	2514C27A10084DCA00A42282 /* Shader.vsh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {954, 299}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{0, 349}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 40821C0212BC5DF500DB9C75 /* EarthSimulation */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* EarthSimulation */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* EarthSimulation */,
+		);
+		breakpoints = (
+			405CE56412BD56CB00DBB790 /* GLTexture.h:17 */,
+		);
+		codeSenseManager = 40821C2512BC5E0300DB9C75 /* Code sense */;
+		executables = (
+			40821C0212BC5DF500DB9C75 /* EarthSimulation */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1999,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					722,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					742,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 334712228;
+			PBXWorkspaceStateSaveDate = 334712228;
+		};
+		perUserProjectItems = {
+			400ADE9F12BC730100A3B9B7 = 400ADE9F12BC730100A3B9B7 /* PBXTextBookmark */;
+			40192ACE12D2D37200B86766 = 40192ACE12D2D37200B86766 /* PBXTextBookmark */;
+			40192ACF12D2D37200B86766 = 40192ACF12D2D37200B86766 /* PBXTextBookmark */;
+			40192AD012D2D37200B86766 = 40192AD012D2D37200B86766 /* PBXTextBookmark */;
+			40192AD112D2D37200B86766 = 40192AD112D2D37200B86766 /* PBXTextBookmark */;
+			40192AD212D2D37200B86766 = 40192AD212D2D37200B86766 /* PBXTextBookmark */;
+			40192AD312D2D37200B86766 = 40192AD312D2D37200B86766 /* PBXTextBookmark */;
+			40192AD412D2D37200B86766 = 40192AD412D2D37200B86766 /* PBXTextBookmark */;
+			40192AD512D2D37200B86766 = 40192AD512D2D37200B86766 /* PBXTextBookmark */;
+			40192AD612D2D37200B86766 = 40192AD612D2D37200B86766 /* PBXTextBookmark */;
+			40192AD712D2D37200B86766 = 40192AD712D2D37200B86766 /* PBXTextBookmark */;
+			40192ADC12D2D50200B86766 = 40192ADC12D2D50200B86766 /* PBXTextBookmark */;
+			405CE53312BD37CA00DBB790 = 405CE53312BD37CA00DBB790 /* PlistBookmark */;
+			405CE53412BD37CA00DBB790 = 405CE53412BD37CA00DBB790 /* PBXTextBookmark */;
+			405CE53612BD37CA00DBB790 = 405CE53612BD37CA00DBB790 /* PBXTextBookmark */;
+			405CE53712BD37CA00DBB790 = 405CE53712BD37CA00DBB790 /* PBXTextBookmark */;
+			405CE59312BD5EF800DBB790 = 405CE59312BD5EF800DBB790 /* PBXTextBookmark */;
+			405CE7DD12BDCB9D00DBB790 = 405CE7DD12BDCB9D00DBB790 /* PBXTextBookmark */;
+			4088D3FC12D4122500F24396 = 4088D3FC12D4122500F24396 /* PBXTextBookmark */;
+			40DB1EF612BE665800DD5339 = 40DB1EF612BE665800DD5339 /* PBXTextBookmark */;
+			40E39F9B13F34DA8009E4CCE /* PBXTextBookmark */ = 40E39F9B13F34DA8009E4CCE /* PBXTextBookmark */;
+		};
+		sourceControlManager = 40821C2412BC5E0300DB9C75 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {954, 275}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 358}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* EarthSimulation_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {956, 593}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	400ADE9F12BC730100A3B9B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 400ADEA012BC730100A3B9B7 /* math.h */;
+		name = "math.h: 335";
+		rLen = 30;
+		rLoc = 14412;
+		rType = 0;
+		vrLen = 3468;
+		vrLoc = 7180;
+	};
+	400ADEA012BC730100A3B9B7 /* math.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = math.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/architecture/i386/math.h;
+		sourceTree = "<absolute>";
+	};
+	40192ACE12D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40821C2B12BC5EA600DB9C75 /* Earth.cpp */;
+		name = "Earth.cpp: 49";
+		rLen = 17;
+		rLoc = 875;
+		rType = 0;
+		vrLen = 1104;
+		vrLoc = 1360;
+	};
+	40192ACF12D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE54512BD409400DBB790 /* TGATexture.h */;
+		name = "TGATexture.h: 24";
+		rLen = 0;
+		rLoc = 658;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 0;
+	};
+	40192AD012D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE54412BD409400DBB790 /* TGATexture.m */;
+		name = "TGATexture.m: 22";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 0;
+	};
+	40192AD112D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE4C812BC81C100DBB790 /* EarthRenderer.h */;
+		name = "EarthRenderer.h: 54";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 130;
+	};
+	40192AD212D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE4C912BC81C100DBB790 /* EarthRenderer.m */;
+		name = "EarthRenderer.m: 124";
+		rLen = 0;
+		rLoc = 3851;
+		rType = 0;
+		vrLen = 1341;
+		vrLoc = 286;
+	};
+	40192AD312D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* EarthAppDelegate.h */;
+		name = "EarthAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 0;
+	};
+	40192AD412D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE4D612BC827100DBB790 /* EAGLView.h */;
+		name = "EAGLView.h: 13";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	40192AD512D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE4D712BC827100DBB790 /* EAGLView.m */;
+		name = "EAGLView.m: 134";
+		rLen = 0;
+		rLoc = 2928;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 3566;
+	};
+	40192AD612D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE4C612BC81C100DBB790 /* PVRTexture.h */;
+		name = "PVRTexture.h: 52";
+		rLen = 0;
+		rLoc = 2553;
+		rType = 0;
+		vrLen = 1770;
+		vrLoc = 1297;
+	};
+	40192AD712D2D37200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE4C712BC81C100DBB790 /* PVRTexture.m */;
+		name = "PVRTexture.m: 216";
+		rLen = 0;
+		rLoc = 6339;
+		rType = 0;
+		vrLen = 2553;
+		vrLoc = 4;
+	};
+	40192ADC12D2D50200B86766 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EarthAppDelegate.m */;
+		name = "EarthAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 1034;
+		vrLoc = 90;
+	};
+	405CE4C612BC81C100DBB790 /* PVRTexture.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 1290}}";
+			sepNavSelRange = "{2553, 0}";
+			sepNavVisRange = "{0, 3072}";
+			sepNavWindowFrame = "{{15, 37}, {631, 736}}";
+		};
+	};
+	405CE4C712BC81C100DBB790 /* PVRTexture.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {897, 3380}}";
+			sepNavSelRange = "{6339, 0}";
+			sepNavVisRange = "{4, 2553}";
+			sepNavWindowFrame = "{{623, 43}, {631, 730}}";
+		};
+	};
+	405CE4C812BC81C100DBB790 /* EarthRenderer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 1290}}";
+			sepNavSelRange = "{1076, 0}";
+			sepNavVisRange = "{0, 1083}";
+			sepNavWindowFrame = "{{38, 16}, {631, 736}}";
+		};
+	};
+	405CE4C912BC81C100DBB790 /* EarthRenderer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 3796}}";
+			sepNavSelRange = "{3851, 0}";
+			sepNavVisRange = "{0, 3272}";
+		};
+	};
+	405CE4D612BC827100DBB790 /* EAGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {897, 618}}";
+			sepNavSelRange = "{210, 0}";
+			sepNavVisRange = "{0, 622}";
+		};
+	};
+	405CE4D712BC827100DBB790 /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 2639}}";
+			sepNavSelRange = "{3445, 0}";
+			sepNavVisRange = "{3732, 523}";
+		};
+	};
+	405CE53312BD37CA00DBB790 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* EarthSimulation-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/donald/Development/Sandbox/EarthSimulation/EarthSimulation-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	405CE53412BD37CA00DBB790 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 12";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	405CE53612BD37CA00DBB790 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Shader.fsh */;
+		name = "Shader.fsh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 215;
+		vrLoc = 0;
+	};
+	405CE53712BD37CA00DBB790 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27A10084DCA00A42282 /* Shader.vsh */;
+		name = "Shader.vsh: 14";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	405CE54412BD409400DBB790 /* TGATexture.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 3237}}";
+			sepNavSelRange = "{573, 0}";
+			sepNavVisRange = "{3124, 2244}";
+		};
+	};
+	405CE54512BD409400DBB790 /* TGATexture.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 1290}}";
+			sepNavSelRange = "{658, 0}";
+			sepNavVisRange = "{0, 866}";
+			sepNavWindowFrame = "{{15, 37}, {631, 736}}";
+		};
+	};
+	405CE56412BD56CB00DBB790 /* GLTexture.h:17 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 405CE56512BD56CB00DBB790 /* GLTexture.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 17;
+		modificationTime = 315387084.944754;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	405CE56512BD56CB00DBB790 /* GLTexture.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = GLTexture.h;
+		path = "/Users/donald/Development/Sample Code/EarthSimulation/GLTexture.h";
+		sourceTree = "<absolute>";
+	};
+	405CE59312BD5EF800DBB790 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 405CE59412BD5EF800DBB790 /* stdio.h */;
+		name = "stdio.h: 255";
+		rLen = 116;
+		rLoc = 9292;
+		rType = 0;
+		vrLen = 1978;
+		vrLoc = 8370;
+	};
+	405CE59412BD5EF800DBB790 /* stdio.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stdio.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdio.h;
+		sourceTree = "<absolute>";
+	};
+	405CE7DD12BDCB9D00DBB790 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* EarthSimulation_Prefix.pch */;
+		name = "EarthSimulation_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	40821C0212BC5DF500DB9C75 /* EarthSimulation */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EarthSimulation;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	40821C2412BC5E0300DB9C75 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	40821C2512BC5E0300DB9C75 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	40821C2B12BC5EA600DB9C75 /* Earth.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 6006}}";
+			sepNavSelRange = "{553, 0}";
+			sepNavVisRange = "{0, 1775}";
+			sepNavWindowFrame = "{{649, 33}, {631, 730}}";
+		};
+	};
+	40821C4512BC6BD200DB9C75 /* gl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = gl.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h;
+		sourceTree = "<absolute>";
+	};
+	4088D3FC12D4122500F24396 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EarthAppDelegate.m */;
+		name = "EarthAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 1034;
+		vrLoc = 90;
+	};
+	40DB1EF612BE665800DD5339 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40821C4512BC6BD200DB9C75 /* gl.h */;
+		name = "gl.h: 723";
+		rLen = 105;
+		rLoc = 30310;
+		rType = 0;
+		vrLen = 3647;
+		vrLoc = 30984;
+	};
+	40E39F9B13F34DA8009E4CCE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EarthAppDelegate.m */;
+		name = "EarthAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 1034;
+		vrLoc = 90;
+	};
+}
